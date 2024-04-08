@@ -3,26 +3,28 @@ import React from "react";
 const SectionFive = () => {
   return (
     <section className="bg-black text-center text-white p-6 pb-32 mb-32">
-      <p className="text-lg text-blue-300">Safe steps, GOAL: The Moon 🚀</p>
-      <h4 className="text-5xl leading-[50px] font-bold my-4">
-        The %RUFUS Roadmap
-      </h4>
-      <p className="mb-4">
-        Embark on an exciting journey with $RUFUS as we navigate through phases
-        of development, collaborations, and product launches, all aimed at
-        enhancing value for our community and investors.
-      </p>
-      {/* <a href="google.com" target="_blank"> */}
-        <button className="py-2 px-4 bg-blue-200 rounded-full text-lg font-bold text-black mb-4 hover:scale-110">
-          Buy Now 🔥
-        </button>
-      {/* </a> */}
-      <p className="text-xs text-slate-300 font-extralight">
-        Remember to buy cryptocurrencies at your own risk. They may not be
-        regulated in your jurisdiction. Keep your assets safe!
-      </p>
+      <div className="mx-auto max-w-[600px]">
+        <p className="text-lg text-blue-300">Safe steps, GOAL: The Moon 🚀</p>
+        <h4 className="text-5xl leading-[50px] font-bold my-4">
+          The %RUFUS Roadmap
+        </h4>
+        <p className="mb-4">
+          Embark on an exciting journey with $RUFUS as we navigate through phases
+          of development, collaborations, and product launches, all aimed at
+          enhancing value for our community and investors.
+        </p>
+        {/* <a href="google.com" target="_blank"> */}
+          <button className="py-2 px-4 bg-blue-200 rounded-full text-lg font-bold text-black mb-4 hover:scale-110">
+            Buy Now 🔥
+          </button>
+        {/* </a> */}
+        <p className="text-xs text-slate-300 font-extralight">
+          Remember to buy cryptocurrencies at your own risk. They may not be
+          regulated in your jurisdiction. Keep your assets safe!
+        </p>
+      </div>
 
-      <div className="bg-blue-700 rounded-2xl px-4 py-6 my-6">
+      <div className="bg-blue-700 rounded-2xl px-4 py-6 my-6 max-w-[480px] mx-auto">
         <div className="mb-12">
           <div className="flex gap-6 justify-center">
             <svg

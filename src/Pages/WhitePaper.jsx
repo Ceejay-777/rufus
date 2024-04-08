@@ -6,9 +6,8 @@ import Footer from "../components/Footer";
 const WhitePaper = () => {
   return (
     <div className="mt-[136px]">
-      <NavBar />
       <div className="bg-black">
-        <div className="mb-32  text-white p-6 text-center max-w-[600px] mx-auto">
+        <div className="mb-32 text-white p-6 text-center max-w-[600px] mx-auto">
           <h4 className="text-5xl leading-[50px] font-bold mb-4">Whitepaper</h4>
           <p className="font-bold text-xl text-blue-700 mb-4">
             Transparency and Information

@@ -9,8 +9,8 @@ const SectionFour = () => {
         Total Supply: 50,000,000 $RUFUS
       </p>
 
-      <div>
-        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6">
+      <div className="md:flex flex-wrap gap-8 justify-center">
+        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
           <div className="font-bold text-blue-300 p-2 px-4 bg-black rounded-2xl text-2xl w-fit mx-auto mb-4 flex gap-2 items-center animate-bounce">
             <svg
               class=""
@@ -65,7 +65,7 @@ const SectionFour = () => {
           </p>
         </div>
 
-        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6">
+        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
           <div className="font-bold text-blue-300 p-2 px-4 bg-black rounded-2xl text-2xl w-fit mx-auto mb-4 flex gap-2 items-center animate-bounce">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +90,7 @@ const SectionFour = () => {
           </p>
         </div>
 
-        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6">
+        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
           <div className="font-bold text-blue-300 p-2 px-4 bg-black rounded-2xl text-2xl w-fit mx-auto mb-4 flex gap-2 items-center animate-bounce">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@ const SectionFour = () => {
           </p>
         </div>
 
-        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6">
+        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
           <div className="font-bold text-blue-300 p-2 px-4 bg-black rounded-2xl text-2xl w-fit mx-auto mb-4 flex gap-2 items-center animate-bounce">
             <svg
               class=""
@@ -177,7 +177,7 @@ const SectionFour = () => {
           </p>
         </div>
 
-        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6">
+        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
           <div className="font-bold text-blue-300 p-2 px-4 bg-black rounded-2xl text-2xl w-fit mx-auto mb-4 flex gap-2 items-center animate-bounce">
             <svg
               class=""
@@ -240,7 +240,7 @@ const SectionFour = () => {
           </p>
         </div>
 
-        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6">
+        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
           <div className="font-bold text-blue-300 p-2 px-4 bg-black rounded-2xl text-2xl w-fit mx-auto mb-4 flex gap-2 items-center animate-bounce">
             <p className="text-white font-semibold tracking-tighter">CIX</p>
             <p>10%</p>
@@ -253,7 +253,7 @@ const SectionFour = () => {
         </div>
       </div>
 
-      <p className='text-xs text-slate-300 font-extralight'>
+      <p className="text-xs text-slate-300 font-extralight">
         The tokenomics are flexible and independent of the presale sellout. In
         this case, the tokenomics will be cut down as a percentage in favor of
         current investors!
