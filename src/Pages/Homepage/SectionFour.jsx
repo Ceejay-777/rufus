@@ -10,7 +10,7 @@ const SectionFour = () => {
       </p>
 
       <div className="md:flex flex-wrap gap-8 justify-center">
-        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
+        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px] mx-auto">
           <div className="font-bold text-blue-300 p-2 px-4 bg-black rounded-2xl text-2xl w-fit mx-auto mb-4 flex gap-2 items-center animate-bounce">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -62,9 +62,12 @@ const SectionFour = () => {
             Initial offering to investors before public launch. 50% of tokens
             allocated for early supporters to acquire at preferential rates.
           </p>
+          <p className="text-2xl font-bold mt-4">
+            25,000,000 <span className="text-blue-200">$RUFUS</span>
+          </p>
         </div>
 
-        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
+        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px] mx-auto">
           <div className="font-bold text-blue-300 p-2 px-4 bg-black rounded-2xl text-2xl w-fit mx-auto mb-4 flex gap-2 items-center animate-bounce">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -87,9 +90,12 @@ const SectionFour = () => {
             Ensures trading stability and accessibility. 10% reserved to provide
             liquidity for seamless trading on exchanges.
           </p>
+          <p className="text-2xl font-bold mt-4">
+            5,000,000 <span className="text-blue-200">$RUFUS</span>
+          </p>
         </div>
 
-        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
+        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px] mx-auto">
           <div className="font-bold text-blue-300 p-2 px-4 bg-black rounded-2xl text-2xl w-fit mx-auto mb-4 flex gap-2 items-center animate-bounce">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -112,9 +118,12 @@ const SectionFour = () => {
             Promotional activities to enhance awareness. 15% allocated for
             marketing campaigns to expand the coin's reach.
           </p>
+          <p className="text-2xl font-bold mt-4">
+            7,500,000 <span className="text-blue-200">$RUFUS</span>
+          </p>
         </div>
 
-        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
+        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px] mx-auto">
           <div className="font-bold text-blue-300 p-2 px-4 bg-black rounded-2xl text-2xl w-fit mx-auto mb-4 flex gap-2 items-center animate-bounce">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -173,9 +182,12 @@ const SectionFour = () => {
             Incentives for engagement and loyalty. 10% set aside for rewarding
             community members for active participation.
           </p>
+          <p className="text-2xl font-bold mt-4">
+            5,000,000 <span className="text-blue-200">$RUFUS</span>
+          </p>
         </div>
 
-        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
+        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px] mx-auto">
           <div className="font-bold text-blue-300 p-2 px-4 bg-black rounded-2xl text-2xl w-fit mx-auto mb-4 flex gap-2 items-center animate-bounce">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -234,9 +246,12 @@ const SectionFour = () => {
             Supports project development and management. 5% allocated to the
             core team for their contributions and efforts.
           </p>
+          <p className="text-2xl font-bold mt-4">
+            2,500,000 <span className="text-blue-200">$RUFUS</span>
+          </p>
         </div>
 
-        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
+        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px] mx-auto">
           <div className="font-bold text-blue-300 p-2 px-4 bg-black rounded-2xl text-2xl w-fit mx-auto mb-4 flex gap-2 items-center animate-bounce">
             <p className="text-white font-semibold tracking-tighter">CEX</p>
             <p>10%</p>
@@ -245,6 +260,9 @@ const SectionFour = () => {
           <p>
             Facilitates availability on centralized exchanges. 10% earmarked for
             securing listings on major exchanges to broaden accessibility.
+          </p>
+          <p className="text-2xl font-bold mt-4">
+            5,000,000 <span className="text-blue-200">$RUFUS</span>
           </p>
         </div>
       </div>

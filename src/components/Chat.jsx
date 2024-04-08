@@ -2,7 +2,7 @@ import React from 'react'
 
 const Chat = () => {
   return (
-    <div className="fixed top-[80%]  right-0 rounded-full bg-gradient-to-l from-cyan-500 to-blue-500 font-bold py-2 px-4 text-white flex gap-2">
+    <div className="fixed top-[80%]  right-0 rounded-full bg-gradient-to-l from-cyan-500 to-blue-500 font-bold py-2 px-4 text-white flex gap-2 mr-2">
       <p>Chat</p>
       <svg
         xmlns="http://www.w3.org/2000/svg"

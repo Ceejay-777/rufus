@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 const WhitePaper = () => {
   return (
-    <div className="mt-[136px]">
+    <div className="mt-[136px] md:mt-[168px]">
       <div className="bg-black">
         <div className="mb-32 text-white p-6 text-center max-w-[600px] mx-auto">
           <h4 className="text-5xl leading-[50px] font-bold mb-4">Whitepaper</h4>
@@ -35,12 +35,12 @@ const WhitePaper = () => {
                 d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"
               />
             </svg>
-            <p>Project verified</p>
+            <p>Project verified by BscScan</p>
           </div>
         </div>
       </div>
 
-      <div className="bg-black ">
+      <div className="bg-black mb-32">
         <div className="p-6 text-center max-w-[880px] mx-auto md:text-left">
           <div className="bg-white rounded-2xl text-black p-4 mb-8">
             <h4 className="font-bold text-blue-700 text-2xl mb-6">
@@ -154,10 +154,6 @@ const WhitePaper = () => {
           </div>
         </div>
       </div>
-
-      <SectionSix />
-
-      <Footer />
     </div>
   );
 };

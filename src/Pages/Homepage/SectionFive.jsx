@@ -6,10 +6,10 @@ const SectionFive = () => {
       <div className="mx-auto max-w-[600px]">
         <p className="text-lg text-blue-300">Safe steps, GOAL: The Moon 🚀</p>
         <h4 className="text-5xl leading-[50px] font-bold my-4">
-          The %RUFUS Roadmap
+          The <span className="text-blue-200">$RUFUS</span> Roadmap
         </h4>
         <p className="mb-4">
-          Embark on an exciting journey with $RUFUS as we navigate through phases
+          Embark on an exciting journey with <span className="text-blue-200">$RUFUS</span> as we navigate through phases
           of development, collaborations, and product launches, all aimed at
           enhancing value for our community and investors.
         </p>
@@ -61,7 +61,7 @@ const SectionFive = () => {
                     d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
                   />
                 </svg>
-                <p>$RUFUS Presale and Launch</p>
+                <p><span className="text-blue-200">$RUFUS</span> Presale and Launch</p>
               </div>
               <div className="flex gap-4">
                 <svg
@@ -247,7 +247,7 @@ const SectionFive = () => {
                     d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
                   />
                 </svg>
-                <p>Launch of the $RUFUS mobile app</p>
+                <p>Launch of the <span className="text-blue-200">$RUFUS</span> mobile app</p>
               </div>
             </div>
           </div>

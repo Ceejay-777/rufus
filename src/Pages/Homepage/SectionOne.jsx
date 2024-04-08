@@ -5,16 +5,15 @@ const SectionOne = () => {
     <section className="bg-black ">
       <div className="text-white p-4 text-center roundbottom pb-10 mb-32 max-w-[600px] mx-auto">
         <h1 className="text-6xl font-bold mb-6 leading-[70px]">
-          <span className="text-blue-200">RUFUS The Dog</span>: The ultimate dog
-          lover Finance project.
+          <span className="text-blue-200">RUFUS The Dog</span>: The ultimate
+          Spaces dog Finance project.
         </h1>
         <p className="mb-6">
-          Introducing <span className="font-bold">Rufus The Dog Coin</span> (<span className="text-blue-200">$RUFUS</span>), a meme cryptocurrency fueled
-          by passion for dogs and the vibrant culture of the crypto world. Join
-          us on an exciting journey where fun meets finance!
+          Tired of boring memecoins? Here comes $Rufus, the space dog about to
+          take off to the moon! 💫
         </p>
-        <p className="font-semibold mb-4">
-          CA: 0x7782CE8928bccd27089730912397DF89129
+        <p className="font-semibold mb-4 text-sm break-words md:text-md">
+          CA: 0xFFa93d7ADE6D32A5074fE3E561e29eCDc86A6DDb
         </p>
         <button className="px-4 py-2 my-2 bg-blue-200 font-bold rounded-full block mx-auto text-black hover:scale-110">
           Chart 🚀

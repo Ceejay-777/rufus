@@ -16,8 +16,8 @@ const SectionTwo = () => {
               A vibrant decentralized community
             </p>
             <h4 className="text-5xl font-semibold mb-6 leading-[50px]">
-              <span className="text-blue-200">$RUFUS</span>: Built by the
-              people, for the people
+              <span className="text-blue-200">$RUFUS</span>: A space dog ready
+              to hit the moon
             </h4>
             <p>
               Dive into RUFUS The Dog, enjoy web3 decentralization, where each
@@ -28,26 +28,30 @@ const SectionTwo = () => {
           </div>
         </div>
 
-        <div className="md:flex flex-wrap gap-8 justify-center">
-          <div className="bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[420px]">
-            <h5 className="text-2xl font-bold mb-4">LOREM IPSUM</h5>
+        <div className="md:flex flex-wrap gap-8">
+          <div className="bg-blue-700 rounded-2xl my-8 text-center p-6 max-w-[420px] mx-auto">
+            <h5 className="text-2xl font-bold mb-4">A Legend Starts</h5>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur nemo, maxime id laudantium hic temporibus.
+              The legend began with a dog named{" "}
+              <span className="text-blue-200">$Rufus</span>. This was no
+              ordinary canine; He was a space dog with big dreams.
             </p>
           </div>
-          <div className="bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[420px]">
-            <h5 className="text-2xl font-bold mb-4">LOREM IPSUM</h5>
+          <div className="bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[420px] mx-auto">
+            <h5 className="text-2xl font-bold mb-4">Exploration</h5>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur nemo, maxime id laudantium hic temporibus.
+              His silver fur was shining under the starlight as he explored the
+              vastness of the cosmos.
             </p>
           </div>
-          <div className="bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[420px]">
-            <h5 className="text-2xl font-bold mb-4">LOREM IPSUM</h5>
+          <div className="bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[420px] mx-auto">
+            <h5 className="text-2xl font-bold mb-4">
+              <span className="text-blue-200">$RUFUS</span> Goal
+            </h5>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur nemo, maxime id laudantium hic temporibus.
+              But <span className="text-blue-200">$Rufus</span> wasn't satisfied
+              with simply wandering the galaxy. He had only one goal: to reach
+              the moon.
             </p>
           </div>
         </div>

@@ -11,7 +11,7 @@ const SectionThree = () => {
       </div>
 
       <div className="md:flex flex-wrap gap-8 justify-center">
-        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
+        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px] mx-auto">
           <div className="font-bold text-blue-900 p-2 bg-white rounded-full text-2xl w-12 h-12 mx-auto animate-pulse mb-4">
             1
           </div>
@@ -21,7 +21,7 @@ const SectionThree = () => {
             or another, in a completely secure and easy way.
           </p>
         </div>
-        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
+        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px] mx-auto">
           <div className="font-bold text-blue-900 p-2 bg-white rounded-full text-2xl w-12 h-12 mx-auto animate-pulse mb-4">
             2
           </div>
@@ -31,7 +31,7 @@ const SectionThree = () => {
             network. Have BNB for gas!
           </p>
         </div>
-        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
+        <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px] mx-auto">
           <div className="font-bold text-blue-900 p-2 bg-white rounded-full text-2xl w-12 h-12 mx-auto animate-pulse mb-4">
             3
           </div>
