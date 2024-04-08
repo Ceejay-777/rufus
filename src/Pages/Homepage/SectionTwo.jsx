@@ -8,7 +8,7 @@ const SectionTwo = () => {
         <img
           src={rufus}
           alt="RUFUS"
-          className="w-20 h-20 rounded-full animate-bounce block mx-auto"
+          className="w-20 h-20 rounded-full animate-bounce block mx-auto z-30"
         />
       </div>
       <p className="text-center text-blue-200 text-lg mb-4">
@@ -24,15 +24,15 @@ const SectionTwo = () => {
         perspectives by offering greater decision-making power to our community.
       </p>
 
-      <div className="h-40 bg-blue-700 rounded-2xl my-6 text-center p-6">
+      <div className="bg-blue-700 rounded-2xl my-6 text-center p-6">
         <h5 className="text-2xl font-bold mb-4">LOREM IPSUM</h5>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo, maxime id laudantium hic temporibus.</p>
       </div>
-      <div className="h-40 bg-blue-700 rounded-2xl my-6 text-center p-6">
+      <div className="bg-blue-700 rounded-2xl my-6 text-center p-6">
         <h5 className="text-2xl font-bold mb-4">LOREM IPSUM</h5>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo, maxime id laudantium hic temporibus.</p>
       </div>
-      <div className="h-40 bg-blue-700 rounded-2xl my-6 text-center p-6">
+      <div className="bg-blue-700 rounded-2xl my-6 text-center p-6">
         <h5 className="text-2xl font-bold mb-4">LOREM IPSUM</h5>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo, maxime id laudantium hic temporibus.</p>
       </div>

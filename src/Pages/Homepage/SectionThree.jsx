@@ -43,7 +43,7 @@ const SectionThree = () => {
         Buy Now 🔥
       </button>
 
-      <p className="text-xs text-slate-300">
+      <p className="text-xs text-slate-300 font-extralight">
         Remember to buy cryptocurrencies at your own risk. They may not be
         regulated in your jurisdiction. Keep your assets safe!
       </p>

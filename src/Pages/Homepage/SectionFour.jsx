@@ -253,7 +253,7 @@ const SectionFour = () => {
         </div>
       </div>
 
-      <p className='text-xs text-slate-300'>
+      <p className='text-xs text-slate-300 font-extralight'>
         The tokenomics are flexible and independent of the presale sellout. In
         this case, the tokenomics will be cut down as a percentage in favor of
         current investors!

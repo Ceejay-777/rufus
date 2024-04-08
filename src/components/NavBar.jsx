@@ -15,7 +15,7 @@ const NavBar = () => {
   //     });
   //   }, []);
   return (
-    <nav ref={hamRef}>
+    <nav ref={hamRef} className="fixed top-0 left-0 w-screen min-h-[136px]">
       <div className="bg-black py-4 px-2 text-white">
         <div className="flex  items-center justify-between mb-4">
           <div className="relative">
