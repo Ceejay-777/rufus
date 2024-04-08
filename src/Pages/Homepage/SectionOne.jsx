@@ -9,8 +9,9 @@ const SectionOne = () => {
           lover Finance project.
         </h1>
         <p className="mb-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eos
-          a autem repudiandae deserunt consectetur non quasi quisquam eius at.
+          Introducing <span className="font-bold">Rufus The Dog Coin</span> (<span className="text-blue-200">$RUFUS</span>), a meme cryptocurrency fueled
+          by passion for dogs and the vibrant culture of the crypto world. Join
+          us on an exciting journey where fun meets finance!
         </p>
         <p className="font-semibold mb-4">
           CA: 0x7782CE8928bccd27089730912397DF89129

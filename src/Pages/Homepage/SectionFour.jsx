@@ -13,7 +13,6 @@ const SectionFour = () => {
         <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
           <div className="font-bold text-blue-300 p-2 px-4 bg-black rounded-2xl text-2xl w-fit mx-auto mb-4 flex gap-2 items-center animate-bounce">
             <svg
-              class=""
               xmlns="http://www.w3.org/2000/svg"
               width="36px"
               height="36px"
@@ -24,36 +23,36 @@ const SectionFour = () => {
                 d="M21 12.0625C21 17.0305 16.968 21.0625 12 21.0625C7.032 21.0625 3 17.0305 3 12.0625C3 7.0945 7.032 3.0625 12 3.0625"
                 stroke="#ffffff"
                 strokeWidth="2"
-                strokLinecap="round"
-                strokLinejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></path>
               <path
                 d="M13.8133 9.20117H11.2018C10.4244 9.20117 9.79492 9.83069 9.79492 10.6071C9.79492 11.3845 10.4244 12.014 11.2018 12.014H12.8092C13.5856 12.014 14.2151 12.6436 14.2151 13.42C14.2151 14.1974 13.5856 14.8269 12.8092 14.8269H10.1968"
                 stroke="#ffffff"
                 strokeWidth="2"
-                strokLinecap="round"
-                strokLinejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></path>
               <path
                 d="M12.0059 14.8244V16.0056M12.0059 8.01172V9.20264"
                 stroke="#ffffff"
                 strokeWidth="2"
-                strokLinecap="round"
-                strokLinejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></path>
               <path
                 d="M16.6523 4.51562V7.40925H19.546"
                 stroke="#ffffff"
                 strokeWidth="2"
-                strokLinecap="round"
-                strokLinejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></path>
               <path
                 d="M16.6523 7.40946L20.5579 3.50391"
                 stroke="#ffffff"
                 strokeWidth="2"
-                strokLinecap="round"
-                strokLinejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></path>
             </svg>
             <p>50%</p>
@@ -118,7 +117,6 @@ const SectionFour = () => {
         <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
           <div className="font-bold text-blue-300 p-2 px-4 bg-black rounded-2xl text-2xl w-fit mx-auto mb-4 flex gap-2 items-center animate-bounce">
             <svg
-              class=""
               xmlns="http://www.w3.org/2000/svg"
               width="36px"
               height="36px"
@@ -128,44 +126,44 @@ const SectionFour = () => {
               <path
                 d="M5.66476 18.1145C2.36156 14.6965 2.38394 9.24795 5.74844 5.85719C7.8549 3.73419 10.7796 2.91496 13.5175 3.40533"
                 stroke="#ffffff"
-                strokWidth="1.5"
-                strokLinecap="round"
-                strokLinejoin="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></path>
               <path
                 d="M18.3352 6.01172C21.6384 9.42973 21.616 14.8783 18.2515 18.2691C16.1451 20.3921 13.2203 21.2113 10.4824 20.7209"
                 stroke="#ffffff"
-                strokWidth="1.5"
-                strokLinecap="round"
-                strokLinejoin="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></path>
               <path
                 d="M13.8064 9.25781H11.197C10.4215 9.25781 9.79297 9.88634 9.79297 10.6628C9.79297 11.4382 10.4215 12.0677 11.197 12.0677H12.8033C13.5788 12.0677 14.2083 12.6963 14.2083 13.4727C14.2083 14.2481 13.5788 14.8776 12.8033 14.8776H10.1938"
                 stroke="#ffffff"
-                strokWidth="1.5"
-                strokLinecap="round"
-                strokLinejoin="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></path>
               <path
                 d="M3 17.9042L5.68245 18.4374L6.21271 15.7695"
                 stroke="#ffffff"
-                strokWidth="1.5"
-                strokLinecap="round"
-                strokLinejoin="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></path>
               <path
                 d="M20.9998 6.22068L18.3174 5.6875L17.7871 8.35536"
                 stroke="#ffffff"
-                strokWidth="1.5"
-                strokLinecap="round"
-                strokLinejoin="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></path>
               <path
                 d="M12 14.8753V16.0546M12 8.07031V9.26024"
                 stroke="#ffffff"
-                strokWidth="1.5"
-                strokLinecap="round"
-                strokLinejoin="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></path>
             </svg>
             <p>10%</p>
@@ -180,9 +178,7 @@ const SectionFour = () => {
         <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
           <div className="font-bold text-blue-300 p-2 px-4 bg-black rounded-2xl text-2xl w-fit mx-auto mb-4 flex gap-2 items-center animate-bounce">
             <svg
-              class=""
               xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
               width="36px"
               height="36px"
               viewBox="0 0 24 24"
@@ -235,20 +231,20 @@ const SectionFour = () => {
           </div>
           <h5 className="text-2xl font-bold mb-2">Team</h5>
           <p>
-            Facilitates availability on centralized exchanges. 10% earmarked for
-            securing listings on major exchanges to broaden accessibility.
+            Supports project development and management. 5% allocated to the
+            core team for their contributions and efforts.
           </p>
         </div>
 
         <div className=" bg-blue-700 rounded-2xl my-6 text-center p-6 max-w-[480px]">
           <div className="font-bold text-blue-300 p-2 px-4 bg-black rounded-2xl text-2xl w-fit mx-auto mb-4 flex gap-2 items-center animate-bounce">
-            <p className="text-white font-semibold tracking-tighter">CIX</p>
+            <p className="text-white font-semibold tracking-tighter">CEX</p>
             <p>10%</p>
           </div>
-          <h5 className="text-2xl font-bold mb-2">CIX Listing</h5>
+          <h5 className="text-2xl font-bold mb-2">CEX Listing</h5>
           <p>
-            Supports project development and management. 5% allocated to the
-            core team for their contributions and efforts.
+            Facilitates availability on centralized exchanges. 10% earmarked for
+            securing listings on major exchanges to broaden accessibility.
           </p>
         </div>
       </div>

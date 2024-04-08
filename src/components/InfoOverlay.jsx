@@ -2,8 +2,10 @@ import React from "react";
 import twitter from "../assets/Xlogo.svg"
 import instagram from "../assets/instagram.svg"
 import telegram from "../assets/telegram.svg"
+import { useNavigate } from "react-router-dom";
 
 const InfoOverlay = ({open, inforef}) => {
+  const navigate = useNavigate()
   return (
     <div
       className={`w-[80vw] p-3 shadow-md rounded-2xl bg-white text-black absolute top-[100%] mt-4 ${
@@ -19,7 +21,8 @@ const InfoOverlay = ({open, inforef}) => {
         All the foundations of the project and the most relevant information
         about it will be provided. Over time, new information will be added. 🔥
       </p>
-      <div className="bg-blue-300 p-2 rounded-xl mb-2  hover:bg-blue-200">
+
+      <div className="bg-blue-300 p-2 rounded-xl mb-2  hover:bg-blue-200 max-w-[400px]" onClick={() => navigate("/whitepaper")}>
         <h4 className="font-bold">Whitepaper</h4>
         <p className="text-sm">
           Complete information on the foundations of the project.

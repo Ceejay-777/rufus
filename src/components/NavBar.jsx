@@ -3,26 +3,41 @@ import rufuslogo from "../assets/rufus.jpg";
 import InfoOverlay from "./InfoOverlay";
 
 const NavBar = () => {
+  const infoOpenRef = useRef(false);
   const [infoOpen, setInfoOpen] = useState(false);
   const infoRef = useRef();
-  const hamRef = useRef();
-  //   useEffect(() => {
-  //     document.body.addEventListener("click", (event) => {
-  //     //   console.log(event.target, infoRef.current);
-  //       if (hamRef.current && !hamRef.current.contains(event.target)) {
-  //         setInfoOpen(false);
-  //       }
-  //     });
-  //   }, []);
+
+  useEffect(() => {
+    const handleCLose = (event) => {
+      console.log(infoOpenRef.current);
+      if (
+        infoOpenRef.current &&
+        event.target !== infoRef.current &&
+        !(infoRef.current.contains(event.currentTarget))
+      ) {
+        setInfoOpen(false);
+      }
+    };
+
+    document.body.addEventListener("click", handleCLose);
+
+    return () => removeEventListener("click", handleCLose)
+  }, []);
+
   return (
-    <nav ref={hamRef} className="fixed top-0 left-0 w-screen min-h-[136px]">
-      <div className="bg-black py-4 px-2 text-white">
-        <div className="flex  items-center justify-between mb-4">
+    <nav className="fixed top-0 left-0 w-screen min-h-[136px] z-50">
+      <div className="bg-black py-4 px-2 text-white md:px-6">
+        <div className="flex items-center justify-between mb-4">
           <div className="relative">
             <div
               className="bg-blue-500 p-2 rounded-full hover:scale-110"
-              onClick={() => setInfoOpen(!infoOpen)}
-              ref={hamRef}
+              onClick={() => {
+                if (!infoOpen) {
+                  console.log("Closed");
+                  setInfoOpen(true);
+                  infoOpenRef.current = true;
+                }
+              }}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,6 +56,7 @@ const NavBar = () => {
             </div>
             <InfoOverlay open={infoOpen} inforef={infoRef} />
           </div>
+          <div></div>
           <div className="flex justify-center gap-2 items-center">
             <img
               src={rufuslogo}
