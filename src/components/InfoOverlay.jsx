@@ -8,7 +8,7 @@ const InfoOverlay = ({open, inforef}) => {
     <div
       className={`w-[80vw] p-3 shadow-md rounded-2xl bg-white text-black absolute top-[100%] mt-4 ${
         open || "hidden"
-      } max-w-[580px]`}
+      } max-w-[580px] z-50`}
       ref={inforef}
     >
       <h2 className="text-xl font-bold mb-2">
@@ -27,15 +27,7 @@ const InfoOverlay = ({open, inforef}) => {
         </p>
       </div>
 
-      {/* <div className="bg-blue-300 p-2 rounded-xl mb-2 hover:bg-blue-200">
-        <h4 className="font-bold">Announcements</h4>
-        <p className="text-sm">
-          See the latest changes and important announcements about $RUFUS THE
-          DOG.
-        </p>
-      </div> */}
-
-      <button className="bg-blue-300 py-2 px-4 rounded-[20px] font-semibold hover:scale-110 text-black">
+      <button className="bg-blue-300 py-2 px-4 rounded-[20px] font-semibold hover:scale-110 text-black mb-4">
         Smart Contract
       </button>
 

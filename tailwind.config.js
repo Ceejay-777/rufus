@@ -19,6 +19,9 @@ export default {
         bg3: 'url("../src/assets/bg3.jpg")',
         bg4: 'url("../src/assets/bg4.jpg")',
       },
+      colors: {
+        bgFade: "rgba(147, 192, 253, 0.05)"
+      }
     },
   },
   plugins: [],

@@ -4,26 +4,9 @@ import InfoOverlay from "./InfoOverlay";
 import MiniNav from "./MiniNav";
 import { useNavigate } from "react-router-dom";
 
-const NavBar = () => {
-  const infoOpenRef = useRef(false);
-  const [infoOpen, setInfoOpen] = useState(false);
+const NavBar = ({infoOpen, setInfoOpen}) => {
   const infoRef = useRef();
-  useEffect(() => {
-    const handleCLose = (event) => {
-      console.log(infoOpenRef.current);
-      if (
-        infoOpenRef.current &&
-        event.target !== infoRef.current &&
-        !infoRef.current.contains(event.currentTarget)
-      ) {
-        setInfoOpen(false);
-      }
-    };
-
-    document.body.addEventListener("click", handleCLose);
-
-    return () => removeEventListener("click", handleCLose);
-  }, []);
+  
 
   return (
     <nav className="fixed top-0 left-0 w-screen min-h-[136px] z-50">
@@ -33,11 +16,7 @@ const NavBar = () => {
             <div
               className="bg-blue-500 p-2 rounded-full hover:scale-110"
               onClick={() => {
-                if (!infoOpen) {
-                  console.log("Closed");
-                  setInfoOpen(true);
-                  infoOpenRef.current = true;
-                }
+                setInfoOpen(!infoOpen)
               }}
             >
               <svg
@@ -64,9 +43,11 @@ const NavBar = () => {
               className="w-12 rounded-full h-12 md:w-16 md:h-16"
             />
           </div>
-          <button className="bg-blue-500 py-2 px-4 rounded-full font-semibold hover:scale-110">
-            Buy $RUFUS
-          </button>
+          <a href="https://pancakeswap.finance/swap" target="_blank">
+            <button className="bg-blue-500 py-2 px-4 rounded-full font-semibold hover:scale-110">
+              Buy $RUFUS
+            </button>
+          </a>
         </div>
         <div className="flex justify-around w-9/10 mx-auto py-2 items-center max-w-[750px]">
           <button className="bg-blue-300 py-2 px-4 rounded-full font-semibold hover:scale-110 text-black">
