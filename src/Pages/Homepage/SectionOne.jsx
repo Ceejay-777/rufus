@@ -13,14 +13,19 @@ const SectionOne = () => {
           take off to the moon! 💫
         </p>
         <p className="font-semibold mb-4 text-sm break-words md:text-md">
-          CA: 0xFFa93d7ADE6D32A5074fE3E561e29eCDc86A6DDb
+          CA: 0x43eA496448e730412eDc29f73DcD75A15dDA257B
         </p>
-        <button className="px-4 py-2 my-2 bg-blue-200 font-bold rounded-full block mx-auto text-black hover:scale-110">
+        {/* <button className="px-4 py-2 my-2 bg-blue-200 font-bold rounded-full block mx-auto text-black hover:scale-110">
           Chart 🚀
-        </button>
-        <button className="px-4 py-2 my-2 bg-blue-200 font-bold rounded-full text-black hover:scale-110">
-          Buy $RUFUS Pancakeswap
-        </button>
+        </button> */}
+        <a
+          href="https://pancakeswap.finance/swap?outputCurrency=0x43eA496448e730412eDc29f73DcD75A15dDA257B"
+          target="_blank"
+        >
+          <button className="px-4 py-2 my-2 bg-blue-200 font-bold rounded-full text-black hover:scale-110">
+            Buy $RUFUS Pancakeswap
+          </button>
+        </a>
         <div className="flex gap-2 justify-center mt-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +42,6 @@ const SectionOne = () => {
             />
           </svg>
           <p>Project verified by BscScan</p>
-          
         </div>
       </div>
     </section>

@@ -2,8 +2,8 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import Socials from "./Socials";
 
-const InfoOverlay = ({open, inforef}) => {
-  const navigate = useNavigate()
+const InfoOverlay = ({ open, inforef }) => {
+  const navigate = useNavigate();
   return (
     <div
       className={`w-[80vw] p-3 shadow-md rounded-2xl bg-white text-black absolute top-[100%] mt-4 ${
@@ -20,16 +20,23 @@ const InfoOverlay = ({open, inforef}) => {
         about it will be provided. Over time, new information will be added. 🔥
       </p>
 
-      <div className="bg-blue-300 p-2 rounded-xl mb-2  hover:bg-blue-200 max-w-[400px]" onClick={() => navigate("/whitepaper")}>
+      <div
+        className="bg-blue-300 p-2 rounded-xl mb-2  hover:bg-blue-200 max-w-[400px]"
+        onClick={() => navigate("/whitepaper")}
+      >
         <h4 className="font-bold">Whitepaper</h4>
         <p className="text-sm">
           Complete information on the foundations of the project.
         </p>
       </div>
-
-      <button className="bg-blue-300 py-2 px-4 rounded-[20px] font-semibold hover:scale-110 text-black mb-4">
-        Smart Contract
-      </button>
+      <a
+        href="https://bscscan.com/address/0xFFa93d7ADE6D32A5074fE3E561e29eCDc86A6DDb"
+        target="_blank"
+      >
+        <button className="bg-blue-300 py-2 px-4 rounded-[20px] font-semibold hover:scale-110 text-black mb-4">
+          Smart Contract
+        </button>
+      </a>
 
       <Socials />
     </div>

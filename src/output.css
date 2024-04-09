@@ -931,6 +931,14 @@ video {
   --tw-gradient-to: #3b82f6 var(--tw-gradient-to-position);
 }
 
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .p-2 {
   padding: 0.5rem;
 }

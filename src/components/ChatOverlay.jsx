@@ -17,17 +17,19 @@ const ChatOverlay = ({open}) => {
         follow the project closely.
       </p>
 
-      <div className="bg-blue-300 p-2 rounded-xl mb-2  hover:bg-blue-200 max-w-[400px]">
-        <h4 className="font-bold">Live chat via Telegram</h4>
-        <p className="text-xs font-light">Support for generel questions.</p>
-      </div>
+      <a href="https://t.me/officialrufusthedog" target='_blank'> 
+        <div className="bg-blue-300 p-2 rounded-xl mb-2  hover:bg-blue-200 max-w-[400px]">
+          <h4 className="font-bold">Live chat via Telegram</h4>
+          <p className="text-xs font-light">Support for generel questions.</p>
+        </div>
+      </a>
 
-      <div className="bg-black text-white p-2 rounded-xl mb-2 hover:bg-slate-900 max-w-[400px]">
+      {/* <div className="bg-black text-white p-2 rounded-xl mb-2 hover:bg-slate-900 max-w-[400px]">
         <h4 className="font-bold">Official Telegram channel</h4>
         <p className="text-xs font-light">
           Announcements and official information
         </p>
-      </div>
+      </div> */}
     </div>
   );
 }

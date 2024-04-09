@@ -16,7 +16,7 @@ const NavBar = ({infoOpen, setInfoOpen}) => {
             <div
               className="bg-blue-500 p-2 rounded-full hover:scale-110"
               onClick={() => {
-                setInfoOpen(!infoOpen)
+                setInfoOpen(!infoOpen);
               }}
             >
               <svg
@@ -50,9 +50,11 @@ const NavBar = ({infoOpen, setInfoOpen}) => {
           </a>
         </div>
         <div className="flex justify-around w-9/10 mx-auto py-2 items-center max-w-[750px]">
-          <button className="bg-blue-300 py-2 px-4 rounded-full font-semibold hover:scale-110 text-black">
-            Claim Presale
-          </button>
+          <a href="https://rufus-zeta.vercel.app/" target="_blank">
+            <button className="bg-blue-300 py-2 px-4 rounded-full font-semibold hover:scale-110 text-black">
+              Claim Presale
+            </button>
+          </a>
           <button className="bg-blue-300 py-2 px-4 rounded-full font-semibold hover:scale-110 text-black">
             Audit
           </button>
