@@ -689,6 +689,14 @@ video {
   margin-top: 96px;
 }
 
+.mt-\[156px\] {
+  margin-top: 156px;
+}
+
+.mt-\[152px\] {
+  margin-top: 152px;
+}
+
 .block {
   display: block;
 }
@@ -1135,6 +1143,10 @@ video {
 
 .pt-12 {
   padding-top: 3rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-left {

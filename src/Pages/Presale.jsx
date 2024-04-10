@@ -6,10 +6,8 @@ import BackCover from "../components/BackCover";
 
 function Presale() {
   return (
-    <div className="">
-      {/* <nav className="h-24 p-4 px-6 bg-blue-900 fixed top-0 left-0 w-screen flex justify-between items-center z-50 min-w-[375px]">
-        <img src={rufuslogo} alt="RUFUS" className="rounded-full h-full" />
-
+    <div>
+      <div className="mt-[152px] md:mt-[168px] flex justify-center bg-black pt-8">
         <ConnectButton
           accountStatus="address"
           chainStatus="icon"
@@ -18,11 +16,8 @@ function Presale() {
             largeScreen: true,
           }}
         />
-      </nav> */}
-
-      {/* <BackCover /> */}
-
-      <div className="md:flex md:justify-center md:flex-row-reverse md:items-center mb-32 bg-black  py-8 md:px-8 mt-[136px] md:mt-[168px]">
+      </div>
+      <div className="md:flex md:justify-center md:flex-row-reverse md:items-center mb-32 bg-black  py-8 md:px-8 ">
         <ExchangeBox />
         <section className="py-12 px-6 ">
           <Mycountdown />
@@ -58,7 +53,7 @@ function Presale() {
         </section>
       </div>
 
-      <footer className="bg-blue-950 font-semibold text-white text-xs text-center py-6 px-2 leading-snug">
+      {/* <footer className="bg-blue-950 font-semibold text-white text-xs text-center py-6 px-2 leading-snug">
         <div className="max-w-[600px] mx-auto">
           <h3 className="my-6 text-xl font-bold">DISCLAIMER</h3>
           <p className="mb-4">
@@ -76,7 +71,7 @@ function Presale() {
           </p>
           <p>© 2023 Rufus The Dog Coin. All Rights Reserved.</p>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }
