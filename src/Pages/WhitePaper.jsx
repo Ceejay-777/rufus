@@ -17,9 +17,14 @@ const WhitePaper = () => {
             project, and theinnovations we are proposing to revolutionize
             memecoins 🔥
           </p>
-          <button className="py-2 px-4 bg-blue-200 hover:scale-110 rounded-full text-black font-bold">
-            Smart Contract
-          </button>
+          <a
+            href="https://bscscan.com/address/0x43eA496448e730412eDc29f73DcD75A15dDA257B"
+            target="_blank"
+          >
+            <button className="py-2 px-4 bg-blue-200 hover:scale-110 rounded-full text-black font-bold">
+              Smart Contract
+            </button>
+          </a>
           <div className="flex gap-2 justify-center mt-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"

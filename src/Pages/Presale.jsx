@@ -1,10 +1,10 @@
-import rufuslogo from "../assets/rufus.jpg";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import Mycountdown from "../components/Mycountdown";
 import ExchangeBox from "../components/ExchangeBox";
-import BackCover from "../components/BackCover";
+import { useNavigate } from "react-router-dom";
 
 function Presale() {
+  const navigate = useNavigate()
   return (
     <div>
       <div className="mt-[152px] md:mt-[168px] flex justify-center bg-black pt-8">
@@ -46,32 +46,12 @@ function Presale() {
               of the crypto world. Join us on an exciting journey where fun
               meets finance!
             </p>
-            <button className="bg-blue-500 py-2 px-6 rounded-3xl font-semibold mx-auto block hover:scale-110 shadow-md text-white">
+            <button className="bg-blue-500 py-2 px-6 rounded-3xl font-semibold mx-auto block hover:scale-110 shadow-md text-white" onClick={() => navigate("/whitepaper")}>
               WHITEPAPER
             </button>
           </div>
         </section>
       </div>
-
-      {/* <footer className="bg-blue-950 font-semibold text-white text-xs text-center py-6 px-2 leading-snug">
-        <div className="max-w-[600px] mx-auto">
-          <h3 className="my-6 text-xl font-bold">DISCLAIMER</h3>
-          <p className="mb-4">
-            Please review this legal disclaimer carefully. Seek professional
-            advice for any doubt. The information provided is not exhaustive and
-            doesn't constitute part of a contractual agreement. While we strive
-            for accuracy, the information, services, and timelines are subject
-            to change without notice. This disclaimer doesn't obligate anyone to
-            enter a contract or binding commitment. By using this information,
-            you acknowledge that it doesn't contravene applicable laws,
-            regulatory requirements, or regulations. Cryptocurrency may be
-            unregulated in your jurisdiction. The value of cryptocurrencies may
-            fluctuate. Profits may be subject to capital gains or other taxes
-            applicable in your jurisdiction.
-          </p>
-          <p>© 2023 Rufus The Dog Coin. All Rights Reserved.</p>
-        </div>
-      </footer> */}
     </div>
   );
 }
