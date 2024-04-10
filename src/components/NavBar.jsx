@@ -55,9 +55,9 @@ const NavBar = ({infoOpen, setInfoOpen}) => {
               Claim Presale
             </button>
           </a>
-          <button className="bg-blue-300 py-2 px-4 rounded-full font-semibold hover:scale-110 text-black">
+          {/* <button className="bg-blue-300 py-2 px-4 rounded-full font-semibold hover:scale-110 text-black">
             Audit
-          </button>
+          </button> */}
           <MiniNav />
         </div>
       </div>
