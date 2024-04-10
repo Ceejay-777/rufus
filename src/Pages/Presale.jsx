@@ -7,7 +7,7 @@ import BackCover from "../components/BackCover";
 function Presale() {
   return (
     <div className="">
-      <nav className="h-24 p-4 px-6 bg-blue-900 fixed top-0 left-0 w-screen flex justify-between items-center z-50 min-w-[375px]">
+      {/* <nav className="h-24 p-4 px-6 bg-blue-900 fixed top-0 left-0 w-screen flex justify-between items-center z-50 min-w-[375px]">
         <img src={rufuslogo} alt="RUFUS" className="rounded-full h-full" />
 
         <ConnectButton
@@ -18,10 +18,11 @@ function Presale() {
             largeScreen: true,
           }}
         />
-      </nav>
-      <BackCover />
+      </nav> */}
 
-      <div className="md:flex md:justify-center md:flex-row-reverse md:items-center mb-32 bg-blue-900 mt-[96px] py-8 md:px-8">
+      {/* <BackCover /> */}
+
+      <div className="md:flex md:justify-center md:flex-row-reverse md:items-center mb-32 bg-black  py-8 md:px-8 mt-[136px] md:mt-[168px]">
         <ExchangeBox />
         <section className="py-12 px-6 ">
           <Mycountdown />
@@ -36,7 +37,7 @@ function Presale() {
         </section>
       </div>
 
-      <div className="bg-blue-900 mb-32 py-12">
+      <div className="bg-black mb-32 py-12">
         <section className="my-12 mx-auto md:text-left max-w-[620px] px-6">
           <div>
             <h1 className="text-center text-6xl font-bold text-white leading-[78px]">

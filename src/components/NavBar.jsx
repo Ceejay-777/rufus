@@ -4,9 +4,9 @@ import InfoOverlay from "./InfoOverlay";
 import MiniNav from "./MiniNav";
 import { useNavigate } from "react-router-dom";
 
-const NavBar = ({infoOpen, setInfoOpen}) => {
+const NavBar = ({ infoOpen, setInfoOpen }) => {
   const infoRef = useRef();
-  
+  const navigate = useNavigate();
 
   return (
     <nav className="fixed top-0 left-0 w-screen min-h-[136px] z-50">
@@ -50,11 +50,13 @@ const NavBar = ({infoOpen, setInfoOpen}) => {
           </a>
         </div>
         <div className="flex justify-around w-9/10 mx-auto py-2 items-center max-w-[750px]">
-          <a href="https://rufus-zeta.vercel.app/" target="_blank">
-            <button className="bg-blue-300 py-2 px-4 rounded-full font-semibold hover:scale-110 text-black">
-              Claim Presale
-            </button>
-          </a>
+          <button
+            className="bg-blue-300 py-2 px-4 rounded-full font-semibold hover:scale-110 text-black"
+            onClick={() => navigate("/presale")}
+          >
+            Claim Presale
+          </button>
+
           {/* <button className="bg-blue-300 py-2 px-4 rounded-full font-semibold hover:scale-110 text-black">
             Audit
           </button> */}

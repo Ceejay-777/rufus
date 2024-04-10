@@ -14,8 +14,8 @@ const MyRoutes = () => {
         <Route element={<SharedLayout />} path="/">
           <Route index element={<Home />} />
           <Route element={<WhitePaper />} path="whitepaper" />
-        </Route>
         <Route element={<Presale />} path="presale" />
+        </Route>
       </Routes>
     </Router>
   );

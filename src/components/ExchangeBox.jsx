@@ -1,21 +1,20 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from "react";
 import usdtlogo from "../assets/usdtlogo.png";
 import bnblogo from "../assets/bnbnewlogo.png";
 import rufuslogo from "../assets/rufus.jpg";
 
-
-
 const ExchangeBox = () => {
-    const [payment, setPayment] = useState("BNB");
-    const [showPayment, setShowPayment] = useState(false);
-    const [receiveAmount, setReceiveAmount] = useState(0);
-    const [paymentAmount, setPaymentAmount] = useState("");
+  const [payment, setPayment] = useState("BNB");
+  const [showPayment, setShowPayment] = useState(false);
+  const [receiveAmount, setReceiveAmount] = useState(0);
+  const [paymentAmount, setPaymentAmount] = useState("");
+  const infoRef = useRef();
 
-    useEffect(() => {
-      if (payment === "BNB") {
-        setReceiveAmount(paymentAmount *28.601)
-      } else setReceiveAmount(paymentAmount * 50)
-    }, [paymentAmount, payment]);
+  useEffect(() => {
+    if (payment === "BNB") {
+      setReceiveAmount(paymentAmount * 28.601);
+    } else setReceiveAmount(paymentAmount * 50);
+  }, [paymentAmount, payment]);
 
   return (
     <div className="mx-6">
@@ -27,9 +26,10 @@ const ExchangeBox = () => {
         <p>Next Step: Launch</p>
         <div className="bg-blue-500 border-2 w-full py-4 rounded-2xl my-6 text-white flex justify-between px-8">
           <button
-            className="bg-blue-700 flex items-center px-2 py-1 rounded-[30px] gap-3 hover:bg-blue-800 relative min-w-[135px]"
+            className="bg-blue-700 flex items-center px-2 py-1 rounded-[30px] gap-3 hover:bg-blue-800 relative border-2min-w-[135px]"
             onClick={(e) => {
-              if (e.target === e.currentTarget) {
+              console.log(e.target === infoRef.current);
+              if (!showPayment && e.target !== infoRef.current) {
                 setShowPayment(true);
               }
             }}
@@ -56,7 +56,10 @@ const ExchangeBox = () => {
               />
             </svg>
             {showPayment && (
-              <div className="absolute bg-blue-700 rounded-2xl p-4 shadow-md top-[100%] mt-2 w-max">
+              <div
+                className="absolute bg-blue-700 rounded-2xl p-4 shadow-md top-[100%] mt-2 w-max"
+                ref={infoRef}
+              >
                 <div
                   className="flex gap-6 items-center my-2 hover:bg-fadedFocus p-2  rounded-2xl justify-between"
                   onClick={() => {
@@ -124,6 +127,6 @@ const ExchangeBox = () => {
       </div>
     </div>
   );
-}
+};
 
-export default ExchangeBox
+export default ExchangeBox;
