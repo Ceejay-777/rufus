@@ -6,7 +6,6 @@ import WhitePaper from "../Pages/WhitePaper";
 import Presale from "../Pages/Presale";
 // import Presale from "../Pages/Presale.jsx";
 
-
 const MyRoutes = () => {
   return (
     <Router>
@@ -14,7 +13,7 @@ const MyRoutes = () => {
         <Route element={<SharedLayout />} path="/">
           <Route index element={<Home />} />
           <Route element={<WhitePaper />} path="whitepaper" />
-        <Route element={<Presale />} path="presale" />
+          <Route element={<Presale />} path="presale" />
         </Route>
       </Routes>
     </Router>
