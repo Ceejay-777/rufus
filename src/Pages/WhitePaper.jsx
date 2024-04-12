@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 const WhitePaper = () => {
   return (
-    <div className="mt-[136px] md:mt-[168px]">
+    <div className="mt-[112px] md:mt-[168px]">
       <div className="bg-black">
         <div className="mb-32 text-white p-6 text-center max-w-[600px] mx-auto">
           <h4 className="text-5xl leading-[50px] font-bold mb-4">Whitepaper</h4>

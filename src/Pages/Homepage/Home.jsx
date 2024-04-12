@@ -8,7 +8,7 @@ import bg1 from "../../assets/bg1.jpg"
 
 const Home = () => {
   return (
-    <div className='mt-[136px] z-30 md:mt-[168px]'>
+    <div className='mt-[112px] z-30 md:mt-[168px]'>
       <SectionOne />
       <SectionTwo />
       <SectionThree />

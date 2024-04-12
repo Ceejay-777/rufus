@@ -9,7 +9,7 @@ const NavBar = ({ infoOpen, setInfoOpen }) => {
   const navigate = useNavigate();
 
   return (
-    <nav className="fixed top-0 left-0 w-screen min-h-[136px] z-50">
+    <nav className="fixed top-0 left-0 w-screen min-h-[112px] z-50">
       <div className="bg-black py-4 px-2 text-white md:px-6">
         <div className="flex items-center justify-between mb-4 mx-auto max-w-[500px]">
           <div className="relative md:hidden">
@@ -50,12 +50,12 @@ const NavBar = ({ infoOpen, setInfoOpen }) => {
           </a>
         </div>
         <div className="flex justify-around w-9/10 mx-auto py-2 items-center max-w-[750px]">
-          <button
+          {/* <button
             className="bg-blue-300 py-2 px-4 rounded-full font-semibold hover:scale-110 text-black"
             onClick={() => navigate("/presale")}
           >
             Claim Presale
-          </button>
+          </button> */}
 
           {/* <button className="bg-blue-300 py-2 px-4 rounded-full font-semibold hover:scale-110 text-black">
             Audit
