@@ -9,7 +9,7 @@ const NavBar = ({ infoOpen, setInfoOpen }) => {
   const navigate = useNavigate();
 
   return (
-    <nav className="fixed top-0 left-0 w-screen min-h-[112px] z-50">
+    <nav className="fixed top-0 left-0 w-screen min-h-[112px] z-50 bg-[#222222]">
       <div className="bg-black py-4 px-2 text-white md:px-6">
         <div className="flex items-center justify-between mb-4 mx-auto max-w-[500px]">
           <div className="relative md:hidden">
